@@ -1,0 +1,10 @@
+ToDo:
+
+
+o Add the "message repeated" functionality.
+
+o Need ability to Copy and Paste messages
+
+o Would like to click a message and email it.
+
+o 

@@ -1,0 +1,21 @@
+#
+# SyslogD Application Defaults Properties
+#
+
+# The Main Window Properties
+SyslogD.mainWindow.x=20
+SyslogD.mainWindow.y=20
+SyslogD.mainWindow.width=-1
+SyslogD.mainWindow.height=190
+SyslogD.mainWindow.title=JMassLogPro
+
+SyslogD.mainWindow.list.font=Monospaced-bold-14
+SyslogD.mainWindow.message.font=Serif-bold-12
+
+SyslogD.mainWindow.logo.imagePath=images/logo.gif
+SyslogD.mainWindow.logo.title=JMassLogPro
+SyslogD.mainWindow.logo.font=Serif-bold-18
+
+SyslogD.aboutDialog.width=540
+SyslogD.aboutDialog.height=320
+SyslogD.aboutDialog.font=Serif-bold-14
