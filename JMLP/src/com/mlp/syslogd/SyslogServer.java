@@ -266,17 +266,7 @@ public class SyslogServer extends Thread{
 		SyslogServerThread sst =  new SyslogServerThread(this);
 		sst.setPriority(Thread.MAX_PRIORITY);
 		sst.start();
-//		SyslogServerThread sst2 = new SyslogServerThread(this);
-//		sst2.setPriority(Thread.MAX_PRIORITY);
-//		sst2.start();
-//		SyslogServerThread sst3 = new SyslogServerThread(this);
-//		sst3.setPriority(Thread.MAX_PRIORITY);
-//		sst3.start();
-//		SyslogServerThread sst4 = new SyslogServerThread(this);
-//		sst4.setPriority(Thread.MAX_PRIORITY);
-//		sst4.start();
-//		getThreadPool().execute(sst);
-//		getThreadPool().execute(sst2);
+
 		
 //		while (true)
 //			{
