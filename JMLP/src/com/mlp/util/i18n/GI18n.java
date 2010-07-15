@@ -57,7 +57,7 @@ public class GI18n {
 //		return filePre;
 //	}
 	
-	private  final String conffile= System.getProperty("user.dir")+"\\conf\\g_i18n.conf";
+	private  final String conffile= System.getProperty("user.dir")+"/conf/g_i18n.conf";
 	public  Properties loadConfFile(){
 		Properties p =null;
 		File f= new File(conffile);
@@ -80,10 +80,10 @@ public class GI18n {
 			}
 			
 		}else {
-			System.err.println("Not find "+conffile);
+			System.err.println("Not found "+conffile);
 			
 
-		String dp =System.getProperty("user.dir")+"\\conf";
+		String dp =System.getProperty("user.dir")+"/conf";
 		String fp =conffile;
 		File d =new File(dp);
 		if(!d.exists()){

@@ -1,0 +1,41 @@
+MassLogProcess
+-------------
+
+For the lattest information on this project: http://github.com/fygrave/masslogprocess
+wiki page available at: http://wiki.github.com/fygrave/masslogprocess/
+
+ Background History 
+-------------------
+MassLogProcess is a a framework for high performance system log processing. This is a fork of original 
+masslogprocess available at https://masslogprocess.svn.sourceforge.net/svnroot/masslogprocess/
+
+The main info site of original project is: http://www.secservice.net/bbs/viewforum.php?f=19
+Some additional information available here: http://code.google.com/p/masslogprocess/
+The project seems stale since 2009 so we forked out a branch. If you're author of the project, please get in touch, we'd be interested to merge some patches back.
+
+
+How to check out the project
+----------------------------
+
+git clone git://github.com/fygrave/masslogprocess.git
+
+Building the project
+--------------------
+
+You can build the project with Ant:
+
+cd masslogprocess/JMLP
+ant
+
+Running the project
+-------------------
+
+You can run main project in server and "display" mode. 
+
+The simplest way to start it is: java -classpath ./libs/OROMatcher1.0.jar;./libs/jppf-client.jar;./libs/jppf-common.jar;./libs/jppf-common-node.jar;./libs/commons-logging-1.1.jar;./jmasslogpro.jar com.mlp.syslogd.SyslogD
+
+There is also syslog message generation available: java -classpath ./libs/OROMatcher1.0.jar;./libs/jppf-client.jar;./libs/jppf-common.jar;./libs/jppf-common-node.jar;./libs/commons-logging-1.1.jar;./jmasslogpro.jar com.mlp.syslog.SyslogSend -host yourhost
+
+
+More information avaible on wiki. Happy hacking!
+
